@@ -24,13 +24,16 @@
 
   <model-viewer 
     id="viewer"
-    src="my_model.glb" 
-    alt="3D Модель" 
-    auto-rotate 
-    camera-controls 
-    ar 
-    ar-modes="webxr scene-viewer quick-look" 
-    shadow-intensity="1" 
+    src="https://yourwebsite.com/path/to/my_model.glb"  <!-- Замініть на правильний шлях до вашої моделі -->
+    alt="3D Модель"
+    auto-rotate
+    camera-controls
+    ar
+    ar-modes="webxr scene-viewer quick-look"  <!-- Підтримка різних режимів AR -->
+    ar-placement="floor"  <!-- Розміщення моделі на підлозі -->
+    ar-scale="auto"  <!-- Автоматичний масштаб моделі -->
+    ar-status="full-screen"  <!-- Режим повноекранного AR -->
+    shadow-intensity="1"
     exposure="1">
   </model-viewer>
 
